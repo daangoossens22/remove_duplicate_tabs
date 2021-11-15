@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Tab Cleaner",
+    "version": "1.0",
+    "description": "close duplicate tabs",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "tab-cleaner@extension"
+        }
+    },
+
+    "commands": {
+        "remove-tabs": {
+            "suggested_key": { "default": "Ctrl+Shift+L" },
+            "description": "Closes duplicate tabs"
+        }
+    },
+
+    "permissions": [ "tabs" ],
+    "background": {
+        "scripts": [ "background.js" ]
+    }
+}
