@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Tab Cleaner",
-    "version": "1.0",
+    "version": "2.0",
     "description": "close duplicate tabs",
     "browser_specific_settings": {
         "gecko": {
@@ -9,15 +9,9 @@
         }
     },
 
-    "commands": {
-        "remove-tabs": {
-            "suggested_key": { "default": "Ctrl+Shift+L" },
-            "description": "Closes duplicate tabs"
-        }
-    },
-
     "permissions": [ "tabs" ],
-    "background": {
-        "scripts": [ "background.js" ]
+    "browser_action": {
+        "default_title": "Tab Cleaner",
+        "default_popup": "popup/tabcleaner.html"
     }
 }
