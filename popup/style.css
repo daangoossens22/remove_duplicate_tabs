@@ -1,26 +1,26 @@
 /* Match Firefox Colorway theme 'Cheers -- Bold' */
 * {
-    color: hsl(42, 96%, 65%);
-    font-family: Dejavu Serif;
-    font-size: 14px;
+  color: hsl(42, 96%, 65%);
+  font-family: Dejavu Serif;
+  font-size: 14px;
 }
 
 body {
-    background-color: hsl(0, 0%, 16%);
+  background-color: hsl(0, 0%, 16%);
 }
 
 button {
-    background-color: hsl(0, 0%, 20%);
-    border: 1px solid hsl(42, 80%, 58%);
-    border-radius: 4px;
-    margin-top: 1px;
-    margin-bottom: 1px;
+  background-color: hsl(0, 0%, 20%);
+  border: 1px solid hsl(42, 80%, 58%);
+  border-radius: 4px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 button:hover {
-    background-color: hsl(0, 0%, 10%);
+  background-color: hsl(0, 0%, 10%);
 }
 
-input[type=checkbox] {
-    accent-color: hsl(42, 96%, 65%);
+input[type="checkbox"] {
+  accent-color: hsl(42, 96%, 65%);
 }

@@ -1,17 +1,18 @@
 {
-    "manifest_version": 2,
-    "name": "Tab Cleaner",
-    "version": "2.0",
-    "description": "close duplicate tabs",
-    "browser_specific_settings": {
-        "gecko": {
-            "id": "tab-cleaner@extension"
-        }
-    },
-
-    "permissions": [ "tabs" ],
-    "browser_action": {
-        "default_title": "Tab Cleaner",
-        "default_popup": "popup/tabcleaner.html"
+  "manifest_version": 2,
+  "name": "Tab Cleaner",
+  "version": "1.0",
+  "description": "close duplicate tabs",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tab-cleaner@extension"
     }
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "Tab Cleaner",
+    "default_popup": "popup/tabcleaner.html"
+  }
 }
